@@ -1,0 +1,16 @@
+[
+{
+  "modid": "PermissionsManaged",
+  "name": "Permissions Managed",
+  "description": "Permissions for Minecraft 1.8",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CruzBishop / Syntaxial"],
+  "credits": "The Minecraft development team for being so slow",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
