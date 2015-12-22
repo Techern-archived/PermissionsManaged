@@ -1,6 +1,8 @@
 package com.techern.minecraft.permissions;
 
+import com.techern.minecraft.permissions.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
@@ -25,6 +27,15 @@ public class PermissionsManaged {
      * @since 0.0.1
      */
     public final static String VERSION = "0.0.1-SNAPSHOT";
+
+    /**
+     * The {@link SidedProxy}, set to {@link com.techern.minecraft.permissions.proxy.ClientProxy} or {@link com.techern.minecraft.permissions.proxy.ServerProxy}
+     *
+     * @since 0.0.1
+     */
+    @SidedProxy(clientSide = "com.techern.minecraft.permissions.proxy.ClientProxy",
+                serverSide = "com.techern.minecraft.permissions.proxy.ServerProxy")
+    public static CommonProxy PROXY;
 
     /**
      * The {@link Logger} for {@link PermissionsManaged}
