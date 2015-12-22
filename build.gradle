@@ -28,7 +28,7 @@ group= "com.techern.minecraft.permissions" // http://maven.apache.org/guides/min
 archivesBaseName = "PermissionsManaged"
 
 minecraft {
-    version = "1.8-11.14.3.1556"
+    version = "1.8-11.14.4.1577"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
