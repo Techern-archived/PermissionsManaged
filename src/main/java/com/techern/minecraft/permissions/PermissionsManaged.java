@@ -2,8 +2,6 @@ package com.techern.minecraft.permissions;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.eventhandler.EventPriority;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import org.apache.logging.log4j.Logger;
 
 /**
@@ -42,7 +40,7 @@ public class PermissionsManaged {
      *
      * @since 0.0.1
      */
-    @SubscribeEvent()
+    @Mod.EventHandler
     public static void onPreInit(FMLPreInitializationEvent event) {
         LOGGER = event.getModLog();
 
