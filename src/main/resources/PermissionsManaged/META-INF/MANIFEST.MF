@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+FMLCorePlugin: com.techern.minecraft.permissions.PermissionsManaged
+-Dfml.coreMods.load=com.techern.minecraft.permissions.PermissionsManaged
