@@ -6,4 +6,12 @@ package com.techern.minecraft.permissions.proxy;
  * @since 0.0.1
  */
 public abstract class CommonProxy {
+
+    /**
+     * Attempts to set up the command handler
+     *
+     * @since 0.0.1
+     */
+    public abstract void setupCommandHandler();
+
 }
