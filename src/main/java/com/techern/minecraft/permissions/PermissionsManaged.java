@@ -57,9 +57,6 @@ public class PermissionsManaged {
 
         LOGGER.info("PermissionsManaged logging set up");
 
-        PROXY.setupCommandHandler();
-
-        LOGGER.info("Replacement command handler set!");
     }
 
 }
